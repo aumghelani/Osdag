@@ -7,6 +7,15 @@
 
 </p>
 
+## My Contributions
+
+This is my fork of [osdag-admin/Osdag](https://github.com/osdag-admin/Osdag). My pull requests to the upstream repository:
+
+- [#396 Osdag gui automation - Aum Ghelani](https://github.com/osdag-admin/Osdag/pull/396) (closed, not merged): Added an "Input for Auto-Detection from OSI Files" button to the main page. It reads the `Module:` line of a selected `.osi` design file, opens the matching connection or tension-member design window, and fills its input fields from the file.
+- [#370 Osdag cli typer](https://github.com/osdag-admin/Osdag/pull/370) (open): Adds a 7-line Typer example script (`cli_tool_typer.py`) as a starting point for a Typer-based CLI.
+- [#368 Started making the CLI](https://github.com/osdag-admin/Osdag/pull/368) (open): An early Click-based `osdag-cli` prototype with an interactive REPL shell and commands to list modules, detect the design module in an `.osi` file, and run a design from an `.osi` file and print its output values. Also adds sample `.osi` files and CLI usage notes.
+- [#363 Remove unnecessary comments and Format for better readability](https://github.com/osdag-admin/Osdag/pull/363) (open): Adds a two-line comment to `main_controller.py`. Despite the title, the diff contains no formatting changes.
+
 ## Table of contents
 * <a href="#quick-start">Quick start</a>
 * <a href="#contribute">Contributing</a>
